@@ -17,7 +17,7 @@ def fizzbuzz(n):
 
     tmp_result = []
     for i in range(1, n + 1):
-        if i % 15 == 0:  # Primero verificamos si es divisible por 3 y 5
+        if i % 15 == 0:
             tmp_result.append("FizzBuzz")
         elif i % 3 == 0:
             tmp_result.append("Fizz")
